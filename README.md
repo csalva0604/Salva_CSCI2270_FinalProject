@@ -1,1 +1,2 @@
 # Salva_CSCI2270_FinalProject
+In the sport of gymnastics, gymnasts receive scores between 0 and 10 based on how well they completed their routines from a set of judges. The scores can be whole numbers or decimals, causing the difference between two gymnasts' scores to be as small as a hundredth of a point. After an event, going through every gymnast's score to decide who got first, second, and third place can be very lenghty. In order to help make this process easier, this program reads in gymnasts' scores and outputs who received first, second, and third place.
