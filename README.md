@@ -9,3 +9,12 @@ This program will not require any additional libraries to be installed.
 
 System Requirements:
 There are no system requirements. 
+
+Group Members:
+None
+
+Contributors:
+None yet
+
+Open issues/bugs:
+None yet
