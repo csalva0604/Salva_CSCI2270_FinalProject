@@ -4,7 +4,7 @@ How To Run:
 To run this program, include the file name as a command line argument.For example, if the file with the gymnasts and their scores is stored in a file called "GymnastScores.txt" use this file name as a command line argument.The program will automatically store the information into an array. To search the array for the gymnasts with the top three scores, the user will press one. To delete a gymnast from the array, press two. To print a certain gymnast's score, press 3. To find the total deductions a gymnast received for her routine, press 4. To print each team's total score, press 5. To quit the program, press 6. For example, a menu will be brought up for the user, and it will tell the user their options to choose. 
 
 Dependencies:
-This program will not require any additional libraries to be installed. 
+This program will not require any additional libraries to be installed, but needs to be run with -std==c++11 on the command line. 
 
 System Requirements:
 There are no system requirements. 
