@@ -16,4 +16,4 @@ Contributors:
 None yet
 
 Open issues/bugs:
-In the last function, printTeamTotal, I didn't know how to add each of the scores that match up with the specific teams to the team total without hardcoding "West", "East", "North", and "South" into the loop.
+In the last function, printTeamTotal, I didn't know how to add each of the scores that match up with the specific teams to the team total without hardcoding "West", "East", "North", and "South" into the loop. Also, I'd like to utilize a constructor, but I don't know what to put in it. 
