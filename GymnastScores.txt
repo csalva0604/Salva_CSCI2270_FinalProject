@@ -1,0 +1,48 @@
+1, 9.4, balance beam, West
+2, 9.3, floor exercise, North
+3, 8.0, uneven bars, East
+4, 7.6, vault, South
+5, 9.5, balance beam, West
+6, 4.0, vault, South
+7, 10.0, floor exercise, North
+8, 3.0, uneven bars, East
+9, 6.0, balance beam, West
+10, 9.1, floor exercise, North
+11, 8.95, uneven bars, East
+12, 8.0, floor exercise, West
+13, 9.6, vault, South
+14, 7.5, floor exercise, West
+15, 9.45, uneven bars, South
+16, 8.1, balance beam, East
+17, 9.0, floor exercise, West
+18, 9.1, vault, North
+19, 7.95, balance beam, East
+20, 9.5, uneven bars, South
+21, 8.75, vault, North
+22, 8.6, balance beam, East
+23, 8.975, vault, North
+24, 7.0, uneven bars, South
+25, 9.1, vault, West
+26, 9.3, vault, West
+27, 8.5, vault, West
+28, 8.4, uneven bars, West
+29, 8.7, uneven bars, West
+30, 9.6, uneven bars, West
+31, 9.5, floor exercise, East
+32, 9.65, floor exercise, East
+33, 8.9, floor exercise, East
+34, 7.4, vault, East
+35, 8.2, vault, East
+36, 8.5, vault, East
+37, 8.35, uneven bars, North
+38, 8.55, uneven bars, North
+39, 9.05, uneven bars, North
+40, 9.75, balance beam, North
+41, 8.575, balance beam, North
+42, 9.35, balance beam, North
+43, 6.1, balance beam, South
+44, 8.05, balance beam, South
+45, 8.7, balance beam, South
+46, 9.95, floor exercise, South
+47, 9.4, floor exercise, South
+48, 8.125, floor exercise, South
