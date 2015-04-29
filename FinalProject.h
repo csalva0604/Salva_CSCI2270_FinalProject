@@ -17,6 +17,7 @@ class Scores
 	public:
 		
 		Scores();
+		void printRemaining(Gymnast arr[]);
 		Gymnast* storeArray(int gymnastNumber, double score, std::string event, Gymnast arr[], int size, Gymnast arr2[], int counter, std::string teamName);
 		Gymnast* deleteGymnast(Gymnast arr[], int gymnastNumber, int count);
 		void sortArray(Gymnast arr[], int count);
