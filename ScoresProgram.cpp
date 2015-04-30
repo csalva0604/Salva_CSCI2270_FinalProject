@@ -13,6 +13,16 @@ using namespace std;
 Scores::Scores()
 {
 }
+void Scores::printRemaining(Gymnast arr[], int counter)
+{
+	cout << "These gymnasts have not been disqualified" << endl;
+	cout << "---------------------------" << endl;
+	for (int i = 0; i < counter; i++)
+	{
+		cout << arr[i].gymnastNumber << endl;
+
+	}
+}
 
 /*
  Function prototype: Gymnast* Scores::storeArray((int gymnastNumber, double score, string event, Gymnast arr[], int size, Gymnast arr2[], int counter, string teamName)

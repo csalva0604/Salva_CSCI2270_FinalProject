@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 			
 
 		}
-		while(userInput != "6")
+		while(userInput != "7")
 		{
 			cout<<"~~~~~~Options~~~~~~"<<endl;
 			cout<<"1. Find Top Scores for Event of Choice"<<endl;
@@ -63,7 +63,8 @@ int main(int argc, char* argv[])
 			cout<<"3. Print certain gymnast's scores"<<endl;
 			cout<<"4. Find total deductions for gymnast"<<endl;
 			cout<<"5. Print team scores"<<endl;
-			cout<<"6. Quit"<<endl;
+			cout<<"6. Print remaining gymnasts"<<endl;
+			cout<<"7. Quit"<<endl;
 			cin>>userInput;
 			if(userInput == "1")
 			{
@@ -81,11 +82,9 @@ int main(int argc, char* argv[])
 				//subtract one from total amount of items to compensate for gymnast deleted from array
 				count--;
 				ScoresArray = ScoreInstance.deleteGymnast(ScoresArray, gymnastNumber, count);
+				cout << "Removing gymnast number " << gymnastNumber << endl;
 				
-				for(int i = 0; i < count; i++)
-				{
-					cout<<ScoresArray[i].gymnastNumber<<endl;
-				}
+				
 				
 			}
 			else if(userInput == "3")
@@ -105,6 +104,10 @@ int main(int argc, char* argv[])
 			else if(userInput == "5")
 			{
 				ScoreInstance.printTeamTotal(ScoresArray, count);
+			}
+			else if(userInput == "6")
+			{
+				ScoreInstance.printRemaining(ScoresArray, count);
 			}
 		}
 		cout<<"Goodbye!"<<endl;
