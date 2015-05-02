@@ -13,6 +13,18 @@ using namespace std;
 Scores::Scores()
 {
 }
+
+bool Scores::checkGymnastExists(Gymnast arr[], int gymnastNumber, int counter)
+{
+	for (int i = 0; i < counter; i++) {
+
+		if (arr[i].gymnastNumber == gymnastNumber)
+			return true;
+	}
+
+	return false;
+}
+
 void Scores::printRemaining(Gymnast arr[], int counter)
 {
 	cout << "These gymnasts have not been disqualified" << endl;

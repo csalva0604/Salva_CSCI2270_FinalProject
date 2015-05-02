@@ -5,6 +5,8 @@
 #ifndef FINALPROJECT_H
 #define FINALPROJECT_H
 
+#include <string>
+
 struct Gymnast
 {
 	int gymnastNumber;
@@ -29,7 +31,7 @@ class Scores
 		void printTeamTotal(Gymnast arr[], int count);
 		Gymnast* shiftArray(Gymnast arr[], int index, int count);
 		void totalDeductions(Gymnast arr[], int count, int gymnastNumber);
-		
+		bool checkGymnastExists(Gymnast arr[], int gymnastNumber, int count);		
 	
 };
 
